@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bold;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
